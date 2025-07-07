@@ -21,6 +21,10 @@
                 <option value="conge annuel">Congé Annuel</option>
                 <option value="conge maladie">Congé Maladie</option>
                 <option value="conge maternite">Congé Maternité</option>
+                <option value="congé de paternité">congé de paternité</option>
+                <option value="congé de mariage">congé de mariage</option>
+                <option value="congé de Haj">congé de Haj</option>
+                <option value="congé administratif">congé administratif</option>
                 <option value="autre" selected>Autre</option>
             </select>
         </div>
@@ -40,7 +44,7 @@
                     </option>
                 @endforeach
             </select>
-        </div>
+        </div>.
 
         <button type="submit" class="btn btn-primary">Soumettre</button>
     </form>

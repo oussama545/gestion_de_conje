@@ -13,7 +13,10 @@ class EmployeeController extends Controller
 {
     public function dashboard()
     {
-        $demandes = DemandeConge::where('user_id', Auth::id())->orderBy('created_at', 'desc')->get();
+        $demandes = DemandeConge::with('user') // ⚠️ Chargement de la relation
+                        ->where('user_id', Auth::id())
+                        ->orderBy('created_at', 'desc')
+                        ->get();
         return view('employe.dashboard', compact('demandes'));
     }
 

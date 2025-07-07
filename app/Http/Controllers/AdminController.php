@@ -48,7 +48,7 @@ public function storeUser(Request $request) {
 
     User::create([
         'name_fr' => $request->name_fr,
-        'name_ar' => $request->name_en,
+        'name_ar' => $request->name_ar,
         'email' => $request->email,
         'date_naissance' => $request->date_naissance,
         'sexe' => $request->sexe,

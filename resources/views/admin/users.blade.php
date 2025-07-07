@@ -136,13 +136,32 @@
                 <select name="position" class="form-select" required>
                     <option value="" disabled selected>Choisir...</option>
                     <option value="EN ACTIVITÉ - القيام بالوظيفة">EN ACTIVITÉ - القيام بالوظيفة</option>
+                    <option value="ABONDANT DE POSTE (RÉVOQUÉ) - التخلي عن الوظيفة">ABONDANT DE POSTE (RÉVOQUÉ) - التخلي عن الوظيفة</option>
+                    <option value="CONGÉ DE MALADIE (LONGUE DURÉE) - عطلة مرضية طويلة الأمد">CONGÉ DE MALADIE (LONGUE DURÉE) - عطلة مرضية طويلة الأمد</option>
+                    <option value="CONGÉ DE MALADIE (MOYEN DURÉE) - عطلة مرضية متوسطة الأمد">CONGÉ DE MALADIE (MOYEN DURÉE) - عطلة مرضية متوسطة الأمد</option>
+                    <option value="DÉCHARGE SYNDICALE - التفرغ النقابي">DÉCHARGE SYNDICALE - التفرغ النقابي</option>
+                    <option value="DÉMISSION - استقالة">DÉMISSION - استقالة</option>
+                    <option value="DDÉTACHEMENT - الإلحاق">DÉTACHEMENT - الإلحاق</option>
+                    <option value="LICENCIEMENT - الفصل من العمل">LICENCIEMENT - الفصل من العمل</option>
+                    <option value="MISE À DISPOSITION - وضع رهن الإشارة">MISE À DISPOSITION - وضع رهن الإشارة</option>
+                    <option value="MISE EN DISPONIBILITÉ - الإحالة على الاستيداع">MISE EN DISPONIBILITÉ - الإحالة على الاستيداع</option>
+                    <option value="MUTATION - الانتقال">MUTATION - الانتقال</option>
+                    <option value="POSITION MILITAIRE - وضعية الجندية">POSITION MILITAIRE - وضعية الجندية</option>
+                    <option value="STAGIAIRE - متدرب">STAGIAIRE - متدرب</option>
+                    <option value="SUSPENSION PROVISOIRE -  توقيف مؤقت عن العمل">SUSPENSION PROVISOIRE -  توقيف مؤقت عن العمل</option>
+            
                 </select>
             </div>
+
+
+
 
             <div class="col-md-4">
                 <label class="form-label fw-semibold">Affectation / Détachement</label>
                 <input type="text" name="affectation_detachement" class="form-control">
             </div>
+
+            
 
              <!-- GRADE -->
             <div class="col-md-4">
@@ -150,6 +169,30 @@
                 <select name="grade" class="form-select" required>
                     <option value="" disabled selected>Choisir...</option>
                     <option value="Adjoint Administratif 1er Grade">Adjoint Administratif 1er Grade</option>
+                    <option value="Adjoint administratif grade principal">Adjoint administratif grade principal</option>
+                    <option value="Adjoint administratif 2ème grade">Adjoint administratif 2ème grade</option>
+                    <option value="Adjoint administratif 3ème grade">Adjoint administratif 3ème grade</option>
+                    <option value="Adjoint administratif 4ème grade">Adjoint administratif 4ème grade</option>
+                    <option value="Adjoint de santé breveté">Adjoint de santé breveté</option>
+                    <option value="Adjoint de santé breveté principal">Adjoint de santé breveté principal</option>
+                    <option value="Adjoint de santé diplômé d'État">Adjoint de santé diplômé d'État</option>
+                    <option value="Adjoint de santé diplômé d'État spécialiste">Adjoint de santé diplômé d'État spécialiste</option>
+                    <option value="Adjoint de santé diplômé d'État spécialiste principal">Adjoint de santé diplômé d'État spécialiste principal</option>
+                    <option value="Adjoint technique grade principal">Adjoint technique grade principal</option>
+                    <option value="Adjoint technique 1er grade">Adjoint technique 1er grade</option>
+                    <option value="Adjoint technique 2ème grade">Adjoint technique 2ème grade</option>
+                    <option value="Adjoint technique 3ème grade">Adjoint technique 3ème grade</option>
+                    <option value="Adjoint technique 4ème grade">Adjoint technique 4ème grade</option>
+                    <option value="Architecte 1er grade">Architecte 1er grade</option>
+                    <option value="Architecte en chef 1er grade">Architecte en chef 1er grade</option>
+                    <option value="Architecte grade principal">Architecte grade principal</option>
+                    <option value="Autres Contractuels">Autres Contractuels</option>
+                    <option value="Autres Contractuels">Autres Contractuels</option>
+                    <option value="Autres Contractuels">Autres Contractuels</option>
+                    <option value="Autres Contractuels">Autres Contractuels</option>
+                    <option value="Autres Contractuels">Autres Contractuels</option>
+                    <option value="Autres Contractuels">Autres Contractuels</option>
+                    <option value="Autres Contractuels">Autres Contractuels</option>
                 </select>
             </div>
 

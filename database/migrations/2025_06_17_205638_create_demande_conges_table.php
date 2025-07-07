@@ -18,8 +18,8 @@ return new class extends Migration
             $table->integer('nombre_jrs');
             $table->foreignId('remplacement_id')->nullable()->constrained('users')->nullOnDelete();
             $table->text('reason');
-            $table->enum('status', ['pending', 'accepted', 'refused'])->default('pending');
-            $table->enum('type', ['conge annuel', 'conge maladie', 'conge maternite', 'autre'])->default('autre');
+            $table->text('status');
+            $table->text('type');
             $table->timestamps();
         });
     }
